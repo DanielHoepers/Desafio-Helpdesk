@@ -18,4 +18,11 @@ Considerações pessoais:
 
 <br>
 
+Este projeto é bastante interessante, pois, mesmo sendo simples, permite montar um cenário full stack<br>
+
+Foi a primeira vez que desenvolvi um projeto do zero com a separação bem definida entre back-end e front-end, utilizando comunicação via REST. Isso tornou a experiência muito positiva pois tive que pesquisar e aprender e entender como contruir o projeto.<br>
+
+Outro ponto relevante foi o uso do jQuery, que eu nunca havia explorado antes. Gostei bastante de aprender, já que ele simplifica bastante o trabalho com JavaScript e torna o desenvolvimento mais ágil.<br>
+
+
 
