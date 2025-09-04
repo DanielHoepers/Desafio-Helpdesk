@@ -1,28 +1,27 @@
 # Desafio-Helpdesk
 
-<br>
+## Como rodar o projeto
 
-Como rodar o projeto:
+1. Clone o repositório para sua máquina local:
 
-<br>
+2. Crie uma **database** e as **tabelas** no banco conforme o arquivo config/db.sql.
 
-1 - Clone para sua maquina local;<br>
-2 - Crie database e as tabelas no banco que estão no arquivo config/db.sql;<br>
-3 - Configure o .env para conectar com o banco que voce criou;<br>
-4 - Na pasta inicial do projeto, abra um terminal e rode "php -S localhost:8080 -t back/public" para subir o projeto;<br>
-5 - Abra o arquivo index.html na pasta front em seu navegador para ver o projeto.<br>
+3. Crie um **usuário** para acessar essa database e essas tabelas no banco.
 
-<br><br>
+4. Configure o arquivo .env para conectar com o banco que você criou.
 
-Considerações pessoais:
+5. Na pasta inicial do projeto, abra um terminal e rode:
+   php -S localhost:8080 -t back/public
+   para subir o projeto.
 
-<br>
+6. Abra o arquivo front/index.html no seu navegador para visualizar o projeto.
 
-Este projeto é bastante interessante, pois, mesmo sendo simples, permite montar um cenário full stack<br>
+---
 
-Foi a primeira vez que desenvolvi um projeto do zero com a separação bem definida entre back-end e front-end, utilizando comunicação via REST. Isso tornou a experiência muito positiva pois tive que pesquisar e aprender e entender como contruir o projeto.<br>
+##  Considerações pessoais
 
-Outro ponto relevante foi o uso do jQuery, que eu nunca havia explorado antes. Gostei bastante de aprender, já que ele simplifica bastante o trabalho com JavaScript e torna o desenvolvimento mais ágil.<br>
+Este projeto é bastante interessante, pois, mesmo sendo simples, permite montar um cenário full stack.
 
+Foi a primeira vez que desenvolvi um projeto do zero com a separação bem definida entre back-end e front-end, utilizando comunicação via REST. Isso tornou a experiência muito positiva, pois precisei pesquisar, aprender e entender como construir o projeto.
 
-
+Outro ponto relevante foi o uso do jQuery, que eu nunca havia explorado antes. Gostei bastante de aprender, já que ele simplifica o trabalho com JavaScript e torna o desenvolvimento mais ágil.
