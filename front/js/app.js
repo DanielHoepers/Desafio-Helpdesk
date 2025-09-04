@@ -86,7 +86,7 @@ function rowTarefa(t){
   <td contenteditable="true" class="resp">${t.responsavel}</td>
   <td>
     <select class="status-tarefa form-select form-select-sm">
-      ${['Aberto','Em Andamento','Finalizado'].map(label => {
+      ${['Pendente','Fazendo','Concluida'].map(label => {
         const val = label.toLowerCase();
         return `<option value="${label}" ${cur === val ? 'selected' : ''}>${label}</option>`;
       }).join('')}

@@ -28,7 +28,7 @@ class Tarefa{
             SELECT COUNT(id)
               FROM tarefas
              WHERE chamado_id = :cid
-               AND LOWER(TRIM(status)) <> 'finalizado'");
+               AND LOWER(TRIM(status)) <> 'concluida'");
         $sql->execute(['cid' => $chamadoId]);
         $qtdPendentes = (int) $sql->fetchColumn();
         return $qtdPendentes === 0;
@@ -66,7 +66,7 @@ class Tarefa{
                 'cid' => $chamadoId,
                 'd'   => $descricao,
                 'r'   => $responsavel,
-                's'   => 'Aberto'
+                's'   => 'Pendente'
             ]);
             $id = (int) $sql->fetchColumn();
             $this->pdo->commit();
